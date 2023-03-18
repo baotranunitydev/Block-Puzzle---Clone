@@ -5,12 +5,11 @@ using UnityEngine;
 public class Shape : MonoBehaviour
 {
     [SerializeField] GameObject squareImage;
-    [SerializeField] Vector2 offset;
 
-    [SerializeField] ShapeData currentShapeData;
-    [SerializeField] int totalSquareNumber;
+    ShapeData currentShapeData;
+    int totalSquareNumber;
 
-    [SerializeField] List<GameObject> listSquare = new List<GameObject>();
+    List<GameObject> listSquare = new List<GameObject>();
 
     public ShapeData CurrentShapeData { get => currentShapeData; set => currentShapeData = value; }
     public int TotalSquareNumber { get => totalSquareNumber; set => totalSquareNumber = value; }

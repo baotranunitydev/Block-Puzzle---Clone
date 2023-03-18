@@ -17,7 +17,7 @@ MonoBehaviour:
   board:
   - column: 00010100
     _size: 4
-  - column: 01000001
+  - column: 01010101
     _size: 4
   - column: 00010100
     _size: 4
